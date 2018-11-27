@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>calculator</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="js/index.js"></script>
+ </head>
+ <body>
+ <!-- CALCULATOR -->
+<form name="calc" id="calculator">
+    <table>
+    <tr>
+    <td>
+        <input type="text" name="input" size="16" class="display">
+    </td>
+    </tr>
+    <tr>
+    <td class="buttons">
+        <input  type="button" name="one" value="1" OnClick="mumOne()">
+        <input  type="button" name="two" value="2" OnClick="mumTwo()">
+        <input  type="button" name="three" value="3" OnClick="mumThree()">
+        <input  type="button" name="add" value="+" OnClick="mumPlus()">
+        <br>
+        <input  type="button" name="four" value="4" OnClick="mumFour()">
+        <input  type="button" name="five" value="5" OnClick="mumFive()">
+        <input  type="button" name="six" value="6" OnClick="mumSix()">
+        <input  type="button" name="sub" value="-" OnClick="mumMinus()">
+        <br>
+        <input  type="button" name="seven" value="7" OnClick="mumSeven()">
+        <input  type="button" name="eight" value="8" OnClick="mumEight()">
+        <input  type="button" name="nine" value="9" OnClick="mumNine()">
+        <input  type="button" name="mul" value="x" OnClick="mumMultiply()">
+        <br>
+        <input  type="button" name="clear" value="c" OnClick="mumClear()">
+        <input  type="button" name="zero" value="0" OnClick="mumZero()">
+        <input  type="button" name="doit" value="=" OnClick="calc.input.value = eval(calc.input.value)">
+        <input  type="button" name="div"  value="/" OnClick="mumDivide()">
+    </td>
+    </tr>
+    </table>
+</form>
+        
+ </body>
+</html>
