@@ -1,5 +1,6 @@
 .display {
     width: 125px;
+    text-align: right;
 }
 input{
     height: 30px;
